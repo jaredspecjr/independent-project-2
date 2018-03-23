@@ -10,9 +10,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to my Track suggester!</h1>
-      <p>Below I will give you 5 questions about yourself.</p>
-      <p>These questions will determine which Track at Epicodus might be right for you!</p>
+      <div class="jumbotron">
+        <h1>Welcome to my Track suggester!</h1>
+        <p id="head">Below I will give you 5 questions about yourself.</p>
+        <p id="head">These questions will determine which Track at Epicodus might be right for you!</p>
+      </div>
       <h3>Do you like figuring out how things work?</h3>
       <form id="form1">
         <select class="form-control" id="backend">
@@ -42,32 +44,34 @@
         <button type="submit" class="button">Calculate!</button>
       </form>
       <div class="suggestion">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="rubyRails">
-              <h2>Ruby/Rails Course</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="well">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="rubyRails">
+                <h2>Ruby/Rails Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="cssReact">
+                <h2>CSS/React Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="javaAndroid">
+                <h2>Java/Android Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="cssReact">
-              <h2>CSS/React Course</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="row">
+            <div class="reccomendation">
+              <p>If you do like working with people but don't really know what to expect here's a <a href="https://www.epicodus.com/what-to-expect/">link</a> to show you what Epicodus is like</p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="javaAndroid">
-              <h2>Java/Android Course</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="information">
+              <p>This link <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">here</a> will take you to information about Epicodus so that you might become more interested in Coding!</p>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="reccomendation">
-            <p>If you do like working with people but don't really know what to expect here's a <a href="https://www.epicodus.com/what-to-expect/">link</a> to show you what Epicodus is like</p>
-          </div>
-          <div class="information">
-            <p>This link <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">here</a> will take you to information about Epicodus so that you might become more interested in Coding!</p>
           </div>
         </div>
       </div>
