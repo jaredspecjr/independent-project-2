@@ -28,6 +28,10 @@ _If you have any issues please report them to Jared Lutz at jaredspecjr@gmail.co
 
 _atom, github, css, jquery, bootstrap and html were used to accomplish this._
 
+## Gh-Pages
+
+_https://jaredspecjr.github.io/independent-project-2/_
+
 ### License
 
 *MIT License.*
