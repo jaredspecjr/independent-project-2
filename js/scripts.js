@@ -1,13 +1,23 @@
 $(document).ready(function(){
   $("#form1").submit(function(event){
     event.preventDefault();
-    var userInput1 = $("#userInput1").val();
-    var userInput2 = $("#userInput2").val();
-    var userInput3 = $("#userInput3").val();
-    var userInput4 = $("#userInput4").val();
-    var userInput5 = $("#userInput5").val();
+    var backend = $("#backend").val();
+    var frontend = $("#frontend").val();
+    var android = $("#android").val();
+    var team = $("#team").val();
+    var problemSolve = $("#problemSolve").val();
 
-    $(".suggestion").text(answer);
+    if (backend === "Yes" && frontend === "No"){
+      $(".suggestion").text("ruby-rails");
+    } else if (frontend === "Yes" && backend === "No"){
+      $(".suggestion").text("css-react");
+    } else if (android === "Yes"){
+      $(".suggestion").text("java-android");
+    } else if (team && problemSolve === "Yes" && backend && frontend && android === "No"){
+      $(".suggestion").text("reccomendation");
+    } else {
+      $(".suggestion").text("something");
+    }
   });
 
 });
