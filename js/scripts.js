@@ -1,10 +1,13 @@
 $(document).ready(function(){
-  $("#form1").submit(function(){
-    var answer1 = $("#answer1").val();
-    var answer2 = $("#answer2").val();
-    var answer3 = $("#answer3").val();
-    var answer4 = $("#answer4").val();
-    var answer5 = $("#answer5").val();
+  $("#form1").submit(function(event){
+    event.preventDefault();
+    var userInput1 = $("#userInput1").val();
+    var userInput2 = $("#userInput2").val();
+    var userInput3 = $("#userInput3").val();
+    var userInput4 = $("#userInput4").val();
+    var userInput5 = $("#userInput5").val();
+
+    $(".suggestion").text(answer);
   });
 
 });
