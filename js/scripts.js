@@ -7,16 +7,21 @@ $(document).ready(function(){
     var team = $("#team").val();
     var problemSolve = $("#problemSolve").val();
 
+
     if (backend === "Yes" && frontend === "No"){
-      $(".suggestion").text("ruby-rails");
+      $(".cssReact").hide();
+      $(".javaAndroid").hide();
+      $(".reccomendation").hide();
+      $(".information").hide();
+      $(".rubyRails").show();
     } else if (frontend === "Yes" && backend === "No"){
-      $(".suggestion").text("css-react");
+      $(".cssReact").show();
     } else if (android === "Yes"){
-      $(".suggestion").text("java-android");
+      $(".javaAndroid").show();
     } else if (team && problemSolve === "Yes" && backend && frontend && android === "No"){
-      $(".suggestion").text("reccomendation");
+      $(".reccomendation").show();
     } else {
-      $(".suggestion").text("something");
+      $(".information").show();
     }
   });
 
