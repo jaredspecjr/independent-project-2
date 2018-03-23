@@ -7,25 +7,24 @@ $(document).ready(function(){
     var team = $("#team").val();
     var problemSolve = $("#problemSolve").val();
 
-
     if (backend === "Yes" && frontend === "No"){
       $(".cssReact").hide();
       $(".javaAndroid").hide();
       $(".reccomendation").hide();
       $(".information").hide();
-      $(".rubyRails").show();
+      $(".rubyRails").fadeIn();
     } else if (frontend === "Yes" && backend === "No"){
       $(".rubyRails").hide();
       $(".javaAndroid").hide();
       $(".reccomendation").hide();
       $(".information").hide();
-      $(".cssReact").show();
+      $(".cssReact").fadeIn();
     } else if (android === "Yes"){
       $(".cssReact").hide();
       $(".rubyRails").hide();
       $(".reccomendation").hide();
       $(".information").hide();
-      $(".javaAndroid").show();
+      $(".javaAndroid").fadeIn();
     } else if (team && problemSolve === "Yes" && backend && frontend && android === "No"){
       $(".cssReact").hide();
       $(".javaAndroid").hide();

@@ -1,5 +1,5 @@
 body{
-  background-color: #96b2e0;
+  background-color: #adbdd6;
 }
 h3{
   color: blue;
@@ -23,25 +23,27 @@ button:hover {
   display: none;
 }
 .reccomendation{
+  padding-top: 70px;
   display: none;
   text-align: center;
   font-size: 40px;
 }
 .information{
+  padding-top: 70px;
   display: none;
   text-align: center;
   font-size: 40px;
 }
 .well{
   min-height: 300px;
-  background-color: lightblue;
+  background-color: #cbdbf4;
   border-style:  double;
   border-color: blue;
   font-family: fantasy;
 
 }
 .jumbotron{
-  background-color: lightblue;
+  background-color: #cbdbf4;
   border-style: double;
   border-color: blue;
   font-family: fantasy;
