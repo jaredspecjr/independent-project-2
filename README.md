@@ -22,7 +22,7 @@ _There are no known bugs at this time._
 
 ## Support and contact details
 
-_If you have any issues please report them to Jared Lutz at jaredspecjr@gmail.com. If you yourself find a solution to a problem you find with our code, don't hesitate to add or experiment!._
+_If you have any issues please report them to Jared Lutz at jaredspecjr@gmail.com. If you yourself find a solution to a problem you find with my code, don't hesitate to add or experiment!._
 
 ## Technologies Used
 
